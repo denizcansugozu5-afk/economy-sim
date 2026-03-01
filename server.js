@@ -10,7 +10,7 @@ app.use(express.static("public"));
 =========================== */
  
 mongoose.connect(
-  "mongodb+srv://denizcan:7654321@cluster0.xxxxx.mongodb.net/game?retryWrites=true&w=majority"
+  "mongodb+srv://denizcan:7654321@cluster0.hx4gedz.mongodb.net/?appName=Cluster0"
 )
 .then(() => console.log("MongoDB connected"))
 .catch(err => console.log("Mongo Error:", err));
