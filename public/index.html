@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ekonomi Sim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<h1>Ekonomi Simülasyonu</h1>
+ 
+<div id="stats"></div>
+ 
+<button onclick="openBusiness('shop')">Dükkan Aç</button>
+<button onclick="openBusiness('farm')">Çiftlik Aç</button>
+<button onclick="openBusiness('factory')">Fabrika Aç</button>
+ 
+<hr>
+ 
+<button onclick="produce()">Üret</button>
+ 
+<input type="number" id="priceInput" placeholder="Satış fiyatı">
+<button onclick="sell()">Sat</button>
+ 
+<hr>
+ 
+<input type="number" id="depositInput" placeholder="Bankaya yatır">
+<button onclick="deposit()">Yatır</button>
+ 
+<p id="msg"></p>
+ 
+<script src="app.js"></script>
+</body>
+</html>
